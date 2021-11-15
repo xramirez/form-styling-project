@@ -3,12 +3,15 @@
     -May want to add "border-box for "box-sizing so padding does not affect width
     -Reset margin and padding 
    */
+   box-sizing: border-box;
+   font-family : 'Raleway';
   }
 
   body {
     /* 
       -Background color is #344a72
     */
+    background-color: #344a72;
   }
 
   a {
@@ -23,12 +26,22 @@
     -I would also set a "max-width" for responsiveness
     -May want to add some padding
     */
+    margin : 0 auto;
+    max-width : 500px;
+    padding : 50px;
   }
 
   .form-wrap {
     /* 
       This is the white area around the form and heading, etc
     */
+    background-color : white;
+    padding : 20px;
+  }
+
+  .form-group span {
+    color : red;
+    margin : 5px auto;
   }
 
   .form-wrap h1,
@@ -36,24 +49,32 @@
     /* 
       May want to center these
     */
+    align-items: center;
+    text-align: center;
   }
 
   .form-wrap .form-group {
     /* 
       Each label, input is wrapped in .form-group
     */
+    margin : 0 auto;
   }
 
   .form-wrap .form-group label {
     /* 
       Label should be turned into a block element
     */
+    display : block;
   }
 
   .form-wrap .form-group input {
     /* 
       Inputs should reach accross the .form-wrap 100% and have some padding
     */
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin : 10px auto;
   }
 
   .form-wrap button {
@@ -61,28 +82,37 @@
       Button should wrap accross 100% and display as block
       Background color for button is #49c1a2
     */
+    background-color: #49c1a2;
+    display : block;
+    width : 100%;
+    padding : 10px;
+    margin : 10px auto;
   }
 
   .form-wrap button:hover {
     /* 
       Hover background color for button is #37a08e
     */
+    background-color: #37a08e;
   }
 
   .form-wrap .bottom-text {
     /* 
       Bottom text is smaller
     */
+    font-size: smaller;
   }
 
   footer {
     /* 
     Should be centered
    */
+   text-align: center;
   }
 
   footer a {
     /* 
       Footer link color is #49c1a2
     */
+    color : #49c1a2
   }

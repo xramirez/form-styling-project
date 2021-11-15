@@ -1,0 +1,23 @@
+{
+  "name": "form-styling-project",
+  "version": "1.0.0",
+  "description": "Style this form to look like the screenshot and set it up to send emails EmailJS! Follow the instructions in the JavaScript file.",
+  "main": "sendEmail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xramirez/form-styling-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xramirez/form-styling-project/issues"
+  },
+  "homepage": "https://github.com/xramirez/form-styling-project#readme",
+  "dependencies": {
+    "emailjs-com": "^3.2.0"
+  }
+}
